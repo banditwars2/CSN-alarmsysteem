@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>Alarmsysteem</title>
+</head>
+<body>
+
+<h1>Hello from a template!</h1>
+
+<form action = "/alarmaan?status=aan" method = "post">
+    <button name="onButton" type="submit">On</button>
+</form>
+<br>
+<form action = "/alarmoff?status=uit" method = "post">
+    <button name="offbutton" type="submit" value="uit">Off</button>
+</form>
+
+</body>
+</html>
